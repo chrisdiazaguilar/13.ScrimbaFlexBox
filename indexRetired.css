@@ -1,0 +1,65 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+ 
+/* /* .container > div {
+    width: 300px;
+} */
+
+.home { 
+     /* flex: 1 1 0;
+
+   The flex above represent each item below example the first 1 on flex represent flex-grow and so forth 
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;*/
+    flex: 1 1 200px;
+    
+}
+
+.logout {
+    /*flex-shrink: 1;*/
+    flex: 10 1 200px;
+    
+}
+
+/* .container { 
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+}*/
+
+/* Justify content options -  flex-start flex-end space-around space-between space-evenly 
+
+.home {
+    margin-right: auto;
+}*/
+/* .container > div {
+    flex: 1;
+    flex-grow, flex-shrink, flex-basis 
+} */
+
+/* .container > .search { 
+    flex: 2;
+}*/
+
+/* Exercise make the search to a fix item 
+.home{
+    flex: 1;
+}
+*/
+
+/*  
+.logout {
+    align-self: flex-start;
+}
+
+.home {
+    align-self: flex-end;
+}
+
+*/

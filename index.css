@@ -3,47 +3,14 @@
     display: flex;
 }
 
-.container > div {
-    width: 300px;
+.item1 {
+    order: 1;
 }
 
-
-/* .container { 
-    border: 5px solid #ffcc5c;
-    display: flex;
-    flex-direction:column;
-    justify-content: flex-end;
-    height: 100%;
-    align-items: flex-end;
-}*/
-
-/* Justify content options -  flex-start flex-end space-around space-between space-evenly 
-
-.home {
-    margin-right: auto;
-}*/
-/* .container > div {
-    flex: 1;
-    flex-grow, flex-shrink, flex-basis 
-} */
-
-/* .container > .search { 
-    flex: 2;
-}*/
-
-/* Exercise make the search to a fix item 
-.home{
-    flex: 1;
-}
-*/
-
-/*  
-.logout {
-    align-self: flex-start;
+.item2 {
+    order: 0;
 }
 
-.home {
-    align-self: flex-end;
+.item3 {
+    order: -1;
 }
-
-*/
